@@ -1,0 +1,71 @@
+@media  (min-width: 1024px) and (max-width: 1440px) {
+  body{
+    background-image: url(/assest/img/images.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.container{
+  position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 500px;
+        width: 450px;
+        text-align: center;
+ 
+}
+#fullName{
+  position: relative;
+  width: 300px;
+  margin: auto;
+  
+}
+.icon{
+  position: absolute;
+  top: calc(27%);
+}
+
+#email{
+  width: 300px;
+  margin: auto;
+}
+
+#password{
+  width: 300px;
+  margin: auto;
+}
+p{
+  padding-right: 70px;
+}
+h4{
+  padding-top: 50px;
+} 
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+      background-image: url('/assest/img/images.png');
+      background-size: cover;
+      height: 100vh;
+      overflow: hidden;
+      
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 400px;
+        width: 300px;
+        text-align: center;
+        overflow: hidden;
+      }
+      a{
+        text-decoration: none;
+      }
+
+  }
